@@ -26,9 +26,9 @@ namespace CastleDemo.Controllers
         public ActionResult Index()
         {
             string hoi = _teller.GoodMorning();
-            Response.Write("Hello <p>");
+            Response.Write("<h1>");
             Response.Write(hoi);
-            Response.Write("</p>");
+            Response.Write("</h1>");
             Logger.WarnFormat("Dit ging okee");
 
             return View();

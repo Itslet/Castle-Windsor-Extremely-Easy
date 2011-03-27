@@ -14,7 +14,7 @@ namespace CastleDemo.Installers
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {
             container.Register(
-            Component.For<IStoryTeller>().ImplementedBy<DutchStoryTeller>());
+            Component.For<IStoryTeller>().ImplementedBy<FrenchStoryTeller>());
         }
     }
 }
